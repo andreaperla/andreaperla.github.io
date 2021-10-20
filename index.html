@@ -18,42 +18,48 @@
             <table>
                 <tbody>
                     <tr>
-                        <td>Nome</td>
+                        <td><label>Nome</label></td>
                         <td>
                             <input name="user_name" id="user_name" required type="text" placeholder="Nome"/>
                         </td>
                     </tr>
                     <tr>
-                        <td>Cognome</td>
+                        <td><label>Cognome</label></td>
                         <td>
                             <input name="user_surname" id="user_surname" required type="text" placeholder="Cognome"/>
                         </td>
                     </tr>
                     <tr>
-                        <td>Email</td>
+                        <td><label>Email</label></td>
                         <td>
-                            <input name="user_email" id="user_email" required type="email"/>
+                            <input name="user_email" id="user_email" required type="email" placeholder="Email"/>
                         </td>
                     </tr>
                     <tr>
-                        <td>Telefono</td>
+                        <td><label>Telefono</label></td>
                         <td>
-                            <input name="user_phone" id="user_phonr" required type="email"/>
+                            <input name="user_phone" id="user_phone" required type="email" placeholder="Telefono"/>
                         </td>
                     </tr>
                     <tr>
-                        <td>Sesso</td>
+                        <td><label>Sesso</label></td>
                         <td>
-                            <select name="select" required>
+                            <select name="user_sex" id="user_sex" required>
                                 <option value="1">Uomo</option>
                                 <option value="2">Donna</option>
                             </select>
                         </td>
                     </tr>
                     <tr>
-                        <td>Note</td>
+                        <td><label>Note</label></td>
                         <td>
-                            <textarea name="notes"></textarea> 
+                            <textarea name="notes" id="notes"></textarea> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input name="privacy" id="privacy" type="checkbox"/> Accetta la privacy
                         </td>
                     </tr>
                     <tr>
